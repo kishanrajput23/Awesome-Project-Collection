@@ -1,4 +1,4 @@
-# Read the issue first for get an idea about rules and guidelines this repository follows. 
+# Read the issue first to get an idea about rules and guidelines this repository follows. 
 
 ## Awesome Project Collection🔥
 
