@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Kanit&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav{
+background-color: black;
+color: azure;
+height: 80px;
+font-size: 30px;
+display: flex;
+align-items: center;
+font-family: 'Cormorant SC', serif;
+}
+.gamecontainer
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top:  40px;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(3,10vw);
+grid-template-rows: repeat(3,10vw);
+font-family:'Cormorant SC', serif ;
+position: relative;
+}
+.box{
+    border: 2px solid black;
+    font-size: 9vw;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color:  rgb(8, 196, 111);
+}
+
+.gameinfo{
+    padding: 0 34px;
+    font-family: 'Kanit', sans-serif;
+}
+.gameinfo h1{
+    font-size: 2.5rem;
+}
+
+.imgbox img{
+    width:0px;
+    transition :width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}
+.bt-0{
+    border-top: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+
+#reset{
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+@media screen and (max-width:548px)
+{
+    .gamecontainer{
+        flex-wrap: wrap;
+    }
+    .gameinfo
+    {
+        margin-top: 34px;
+    }
+    .gameinfo h1{
+      font-size: 1.5rem;
+    }
+    .container{
+        grid-template-rows: repeat(3,20vw);
+        grid-template-columns: repeat(3,20vw);
+    }
+    
+}
+.line
+{
+    background-color: black;
+    height:3px;
+    width: 0vw;
+    position:absolute;
+    transition: width 1s ease-in-out;
+}
