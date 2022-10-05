@@ -1,0 +1,2 @@
+It is a two player game of guessing the number whoever number will be closer that player will win and other will do a task assigned by the winner ![Screenshot_2022-10-05-20-54-58-848_com paprbit dcoder](https://user-images.githubusercontent.com/105304169/194101873-dcbb41b3-55df-45e1-a6a2-b02735de7247.jpg)
+![Screenshot_2022-10-05-20-55-06-131_com paprbit dcoder](https://user-images.githubusercontent.com/105304169/194101892-0a275268-f452-4616-9a46-183a03ce4233.jpg)
