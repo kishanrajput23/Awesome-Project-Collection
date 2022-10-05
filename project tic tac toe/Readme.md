@@ -1,3 +1,8 @@
-# A simple game of tic tac toe made by me equipped with music and appearance of a cat gif on wining.
+# Find below the image attached of the project dragon game
 
-![image]((gameimage.png)cd
+
+
+![image](gameimage.png)
+
+
+## This game has nice music and animations.
