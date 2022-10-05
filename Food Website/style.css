@@ -1,0 +1,265 @@
+/*css reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*CSS variables*/
+:root{
+    --navbar-height: 59px;
+}
+
+/*Navigation bar*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(9, 9, 9);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   
+   
+}
+
+/* Navigation bar:Logo and image styling*/
+#logo{
+
+    margin: 10px 34px
+
+}
+
+#logo img{
+    height: 76px;
+    margin: 25px 16px;
+
+}
+
+/* Navigation bar: List styling*/
+
+ #navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#navbar ul li{
+    /*color: white; */
+    list-style: none;
+   font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color: white; 
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+}
+#navbar ul li a:hover{
+    color: white; 
+    background-color: rgb(24, 22, 22);
+    
+   
+}
+
+
+/*Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 201px;
+    justify-content: center;
+    align-items: center;
+    height: 578px;
+
+}
+#home::before{
+    content: "";
+    background:url(background.jpg) no-repeat center center/cover ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: rgb(254, 244, 244);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+#home p{
+    color: rgb(235, 225, 225);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+/*Services section*/
+#services{
+    margin: 34px;
+    display: flex;
+
+
+}
+#services .box{
+
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: rgb(198, 205, 211);
+    
+}
+#services .box img{
+
+    height: 117px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+#services .box p{
+    font-family: 'Merriweather', serif;
+    
+
+    
+}
+#services .box p{
+ 
+}
+
+/*Client section*/
+#client-section{
+    
+    position: relative;
+    
+
+}
+#client-section::before{
+   content: "";
+   position: absolute;
+   background: url(food\ bck\ 2.jpg);
+  
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.5;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.client-item{
+    padding: 34px;
+}
+#clients img{
+    height: 144px;
+    border-radius: 5px;
+
+}
+/*contact section*/
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(conto.jpg) no-repeat center;
+
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    width: 1.3rem;
+    font-family: 'Merriweather', serif;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px ;
+}
+
+
+
+
+
+
+
+/*Utility classes*/
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Merriweather', serif;
+
+}
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 92px;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
