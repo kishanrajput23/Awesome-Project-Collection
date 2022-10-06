@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-<img title="a title" alt="Alt text" src="/Screenshots/Screenshot 2022-10-06 113057.png">
+<img title="a title" alt="Alt text" src="//Screenshots/Screenshot 2022-10-06 113057.png">
