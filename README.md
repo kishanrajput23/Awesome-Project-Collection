@@ -46,7 +46,7 @@ Star the repository by pressing the topmost-right button to start your wonderful
 
 
 ## Awesome contributors :star_struck:
-<a href="https://github.com/kishanrajput23/Awsome-Project-Collection/graphs/contributors">
+<a href="https://github.com/kishanrajput23/Awesome-Project-Collection/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=kishanrajput23/Awesome-Project-Collection" />
 </a>
 
