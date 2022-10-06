@@ -193,7 +193,7 @@ html{
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url(conto.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url(conto.jpg) no-repeat center;
 
     
 }
