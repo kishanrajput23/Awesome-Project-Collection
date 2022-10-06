@@ -1,0 +1,1 @@
+This is a TicTacToe game that is developed Using HTML, CSS, and JavaScript. This game can be played by 2 players each player has its turn on which they can play, and The first player who is able to make 3 the same characters in a row will be declared a winner and then we can also reset the game and start playing again
