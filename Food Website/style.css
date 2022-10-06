@@ -94,7 +94,7 @@ html{
 }
 #home::before{
     content: "";
-    background:url(background.jpg) no-repeat center center/cover ;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url(background.jpg) no-repeat center center/cover ;
     position: absolute;
     top: 0px;
     left: 0px;
