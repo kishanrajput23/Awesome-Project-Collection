@@ -1,0 +1,148 @@
+/*
+initiall css for home page
+.container {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  transform: translate(-50%, -50%);
+}
+
+.panel {
+  margin-right: 100px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  width: 320px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 60px;
+  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  position: relative;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 1000;
+  margin-top: 0;
+}
+
+.card__text {
+  font-size: 14px;
+  line-height: 1.45;
+  opacity: 0.8;
+  margin-bottom: 2em;
+}
+
+.button {
+  display: inline-block;
+  padding: 1.5em 3em;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(9, 28, 60, 1) 0%,
+    rgba(67, 46, 103, 1) 100%
+  );
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  border-radius: 10em;
+  color: white;
+}
+
+*/
+
+#login-type-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-type {
+  width: 80%;
+  min-width:800px;
+  max-width: 1200px;
+  /* min-width: 600px; */
+  color: var(--lightPrimaryColor);
+  font-family: "Courgette", cursive;
+  text-align: center;
+
+}
+
+#greetings {
+  font-size: 6.5rem;
+  margin-bottom: 0.5rem;
+}
+#subtitle-txt {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+#options-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  #login-type-container {
+    height: auto;
+    width: 100%;
+  }
+  #login-type {
+    width: 100%;
+    padding: 30px;
+    min-width: 0px;
+  }
+  #options-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options {
+    margin: 10px 5px;
+  }
+}
+
+.options-image {
+  width: 240px;
+  height: 240px;
+  display: block;
+  margin: 0px auto;
+}
+
+.options-image-caption {
+  margin-top: 24px;
+  color: var(--primaryColor);
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.select-link{
+  text-decoration: none;
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+  .options-image {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0px auto;
+  }
+}

@@ -1,0 +1,27 @@
+.VendorInfo {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 2px;
+}
+tr {
+  height: 90px;
+}
+.cell-input {
+  height: 40px;
+  text-align: center;
+}
+.label {
+  margin: 10px;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+.getAssetById {
+  display: flex;
+}
+.btn {
+  cursor: pointer;
+  width: "140px";
+  height: "50px";
+}
