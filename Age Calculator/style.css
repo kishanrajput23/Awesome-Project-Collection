@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     font-family:cursive;
+    background-color: rgb(255, 205, 144);
 }
 
 .container{
@@ -16,7 +17,6 @@
     flex-direction:column;
     background-color:rgb(212, 75, 38);
     box-shadow:8px 8px black;
-    color:white;
     padding:5% 0%;
 }
 
