@@ -1,0 +1,97 @@
+#sea
+{
+    border:1px solid black;
+}
+.navbar
+{
+    background-color:slateblue;
+}
+.xyz
+{
+    height:35rem;
+    width:100rem;
+    border-radius:20rem;
+}
+#img1
+{
+    height:35rem;
+    width:100rem;
+    border-radius:20rem;
+}
+#nav1
+{
+    margin-left:3rem;
+    font-weight: bolder;
+}
+.about
+{
+    margin-bottom: 0.5rem;
+    margin-left: 45rem;
+}
+.about1
+{ 
+    padding:4rem;
+    margin-left: 45rem;
+}
+
+.service
+{
+    font-weight: bolder;
+    font-size:2rem;
+    margin-top:2rem;
+    margin-left:35rem;
+}
+.some
+{
+    margin-top:0.5rem;
+    margin-left:27rem; 
+    font-weight: 2rem;
+    font-size: 1.5rem;
+}
+.parent1
+{
+    margin-left: 25rem;
+    width: 690px;
+    display:flex;
+}
+.child2{
+    border-radius: 15px 15px 15px 15px;
+    font-family:sans-serif;
+    width:230px;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: auto;
+    font-weight: bold;
+    box-shadow: 1rem 1rem 0.5rem 0 gray;
+}
+.under{
+    margin-top: 0.5rem;
+    font-size: small;
+    font-weight: lighter;
+}
+.logo{
+    background-color:lightblue;
+}
+.foot
+{   margin-top: 10rem;
+    width: 1200px;
+    height:300px;
+    display:flex;
+}
+.con
+{
+    margin-top: 1rem;
+    margin-left: 27rem;
+    margin-right: 3rem;
+   font-size: 70px;
+    font-weight: bolder;
+}
+.ins
+{
+    margin-right: 4rem;
+    font-size: 90px;
+}
+.lin
+{
+    font-size: 90px;
+}

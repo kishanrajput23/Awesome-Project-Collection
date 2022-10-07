@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../xampp/htdocs/Akshat"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "C++Code"
+	}
+}
