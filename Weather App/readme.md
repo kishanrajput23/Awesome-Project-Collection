@@ -1,0 +1,1 @@
+This is a Simple Weather App You Just Need To Enter The Correct Place Name And it will display its weather
