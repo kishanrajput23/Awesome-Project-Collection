@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap");
+
+:root {
+	--red: hsl(0, 78%, 62%);
+	--cyan: hsl(180, 62%, 55%);
+	--orange: hsl(34, 97%, 64%);
+	--blue: hsl(212, 86%, 64%);
+	--dark-blue: hsl(234, 12%, 34%);
+	--grey-blue: hsl(229, 6%, 66%);
+	--light-grey: hsl(0, 0%, 98%);
+}
+
+body {
+	background-color: var(--light-grey);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+    /* overflow: scroll; */
+}
+
+.main-text {
+	text-align: center;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 2em;
+	margin-bottom: 0px;
+	color: var(--dark-blue);
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: var(--dark-blue);
+}
+
+p {
+	font-weight: 200;
+	font-size: 1.1em;
+	margin-top: 5px;
+	color: var(--grey-blue);
+}
+
+.boxes {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.cards {
+	width: 325px;
+	height: 235px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 0px 30px 30px 30px;
+	box-shadow: 0px 2px 15px 0px var(--grey-blue);
+}
+
+.stack {
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.supervisor {
+	border-top: 5px solid var(--cyan);
+	align-self: center;
+	margin-right: 15px;
+}
+
+.team-builder {
+	border-top: 4px solid var(--red);
+	margin-bottom: 15px;
+}
+
+.calculator {
+	border-top: 5px solid var(--blue);
+	align-self: center;
+	margin-left: 15px;
+}
+
+.karma {
+	border-top: 5px solid var(--orange);
+	align-self: center;
+	margin-top: 15px;
+}
+
+.icon {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	float: right;
+	margin-bottom: -30px;
+	margin-top: 30px;
+}
+
+.cards h3 {
+	color: var(--dark-blue);
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.cards p {
+	color: var(--grey-blue);
+	font-weight: 400;
+	line-height: 1.75em;
+	font-size: 1em;
+	margin-top: -10px;
+}
+
+@media screen and (max-width: 600px) {
+	.boxes {
+		flex-direction: column;
+	}
+	.supervisor,
+	.karma,
+	.team-builder,
+	.calculator {
+		margin: 0 0 15px 0;
+	}
+}
