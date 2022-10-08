@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  outline: none;
+
+  list-style: none;
+
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+
+  background: #fafafa;
+
+  font-size: 14px;
+
+   
+
+}
+
+.wrapper .header{
+
+  max-width: 350px;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 50px auto;
+
+}
+
+.wrapper .header .top,
+
+.wrapper .signup{
+
+  background: #fff;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 1px;
+
+    padding: 40px 40px 20px;
+
+}
+
+.wrapper .header .logo img{
+
+  display: block;
+
+  margin: 0 auto 35px;
+
+}
+
+.wrapper .header .logo p{
+
+    font-family: 'Parisienne', cursive;
+
+    font-size: 3.5em;
+
+    font-weight: bold;
+
+    display: block;
+
+    margin: 0 auto 35px;
+
+    text-align: center;
+
+}
+
+.wrapper .header .form .input_field{
+
+  margin-bottom: 5px;
+
+}
+
+.wrapper .header .form .input_field .input{
+
+  width: 100%;
+
+  background: #fafafa;
+
+  border: 1px solid #efefef;
+
+  font-size: 12px;
+
+  border-radius: 3px;
+
+  color: #262626;
+
+  padding: 10px;
+
+}
+
+.wrapper .header .form .input_field .input:focus{
+
+  border: 1px solid #b2b2b2;
+
+}
+
+.wrapper .header .form .btn{
+
+  margin: 10px 0;
+
+  background-color: #3897f0;
+
+    border: 1px solid #3897f0;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    padding: 5px;
+
+}
+
+.wrapper .header .form .btn a{
+
+  color: #fff;
+
+  display: block;
+
+}
+
+.wrapper .header .or{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  height: 15px;
+
+  margin: 15px 0 20px;
+
+}
+
+.wrapper .header .or .line{
+
+  width: 105px;
+
+  height: 2px;
+
+  background: #efefef;
+
+}
+
+.wrapper .header .or p{
+
+  color: #999;
+
+  font-size: 12px;
+
+}
+
+.fb{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: rgb(0,150,255);
+
+  padding: 6px;
+
+}
+
+ .fb .fa{
+
+  Font-size: 1.4em;
+
+  Color: #fff;
+
+}
+
+.fb p{
+
+  color: #fff;
+
+  font-weight: bold;
+
+  margin-left: 10px;
+
+}
+
+.wrapper .forgot{
+
+  font-size: 12px;
+
+  text-align: right;
+
+  margin-top: 20px;
+
+  
+
+}
+
+.wrapper .forgot a{
+
+  color: rgb(0,150,255);
+
+  font-size: 1.2em;
+
+}
+
+.wrapper .signup{
+
+  margin: 10px 0 20px;
+
+  padding: 25px 40px;
+
+  text-align: center;
+
+  color: #262626;
+
+}
+
+.wrapper .signup p{
+
+   color: #999999;
+
+}
+
+.wrapper .signup a{
+
+  color: #3897f0;
+
+}
+
+.foot{
+
+position: sticky;
+
+bottom: -10px;
+
+width: 100%;
+
+padding: 20px 40px;
+
+text-align: center;
+
+background: #f2f2f2;
+
+border-top: 1px solid #cccccc;
+
+}
+
+.p3{
+
+font-family: 'Montserrat', sans-serif;
+
+font-size: 0.9em;
+
+}
+
+.p5{
+
+     letter-spacing: 2px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bold;
+
+}
+
+.get{
+
+background: linear-gradient(45deg,#aa076b ,#f45c43) ! important;
+
+position: absolute;
+
+top: 0;
+
+width: 100%;
+
+padding: 10px 1em;
+
+}
+
+.get p{
+
+color: #fff;
+
+}
+
+.get #p1{
+
+  font-size: 0.9em;
+
+  color: #fff;
+
+  float: left;
+
+  
+
+  width: 70%;
+
+}
+
+.get #p2{
+
+     float: right;
+
+    
+
+    text-align: center; 
+
+    border: 1px solid #fff;
+
+    border-radius: 2px;
+
+    padding: 5px 1em;
+
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="933.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="blood.management.Mainpage">
+   <top>
+      <AnchorPane prefHeight="125.0" prefWidth="721.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="125.0" prefWidth="721.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #000000;" text="           Blood Bank" GridPane.columnSpan="3">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowSpan="2">
+                     <image>
+                        <Image url="@../../Images/blood.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <VBox prefHeight="552.0" prefWidth="150.0" stylesheets="@DarkTheme.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="dnor" mnemonicParsing="false" onAction="#addDonor" prefHeight="65.0" prefWidth="151.0" text="Donor" />
+            <Button fx:id="reciever" mnemonicParsing="false" onAction="#setReciever" prefHeight="58.0" prefWidth="151.0" text="Blood Reciever" />
+            <Button fx:id="doctor" mnemonicParsing="false" onAction="#setdoctor" prefHeight="58.0" prefWidth="151.0" text="Doctor Details" />
+            <Button fx:id="employee" mnemonicParsing="false" onAction="#setEmployee" prefHeight="64.0" prefWidth="151.0" text="Employee" />
+            <Button mnemonicParsing="false" onAction="#setavailableScene" prefHeight="58.0" prefWidth="151.0" text="Available Blood" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

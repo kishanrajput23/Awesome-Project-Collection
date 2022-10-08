@@ -1,0 +1,220 @@
+@import url('https://fonts.google.com/css?family=Barlow+Semi+Condensed:600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at 50% 10%,
+            hsl(214, 47%, 23%),
+            hsl(237, 49%, 15%));
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+.container {
+
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    border: 3px solid hsl(217, 16%, 45%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px 0;
+}
+
+h1 {
+
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 0.8;
+    font-size: 2.6rem;
+    margin-top: 10px;
+}
+
+h2{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h4{
+    color: hsl(229, 64%, 46%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.score-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.score-box p{
+    color: hsl(229, 25%, 31%);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+main::before{
+    background-image: url('./images/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
+    z-index: -1;
+}
+
+.btn-circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 0 25px;
+    box-shadow:inset 0 -5px rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-circle:focus{
+    outline: none;
+}
+
+.btn-circle:active{
+    transform: scale(0.9);
+}
+
+.btn-circle .wrapper{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow:inset 0 5px rgba(0, 0, 0, 0.3);
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+}
+
+.btn-paper{
+    background: linear-gradient(to bottom, hsl(230, 89%, 62%),hsl(230, 89%, 65%));
+
+}
+
+.btn-scissors{
+    background: linear-gradient(to bottom, hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+
+}
+
+.btn-rock{
+    background: linear-gradient(to bottom, hsl(349, 71%, 52%) ,hsl(349, 70%, 56%));
+
+}
+
+.btn-rules{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 19px;
+    font-family: inherit;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: hsl(229,25%,31%);
+    font-size: 20px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+}
+
+.selection{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.selection .btn-circle{
+    margin: 50px 100px;
+    transform: scale(1.2);
+}
+
+.big-text{
+    
+    font-size: 3rem;
+    margin: 0 0 20px;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.rules-modal{
+    background-color: #f0f0f0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+.rules-modal button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 100px;
+    transform: scale(1.5);
+
+}
+
+
+@media (max-width: 1200px){
+    .go-down{
+        order: 1;
+    }
+}

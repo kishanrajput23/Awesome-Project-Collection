@@ -1,0 +1,1 @@
+it is a very basic Bank management system![Screenshot_2022-10-06-23-41-14-533_com paprbit dcoder](https://user-images.githubusercontent.com/105304169/194388694-c094d962-10ad-4838-ace9-c7e92c5abd3e.jpg)
