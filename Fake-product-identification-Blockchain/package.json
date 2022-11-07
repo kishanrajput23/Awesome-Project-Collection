@@ -1,0 +1,55 @@
+{
+  "name": "asset-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "env-cmd": "^10.1.0",
+    "ethers": "^5.5.4",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-form": "^4.0.1",
+    "react-modal": "^3.14.4",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-router-link": "^2.0.2",
+    "react-scripts": "5.0.0",
+    "react-table": "^7.7.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
+    "build:production": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0"
+  }
+}

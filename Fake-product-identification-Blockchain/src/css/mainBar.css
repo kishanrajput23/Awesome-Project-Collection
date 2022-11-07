@@ -1,0 +1,16 @@
+#box-container {
+  margin: 0px;
+  width: 75%;
+  height: 93vh;
+  background-color: var(--light-bg);
+  border-radius: 40px;
+  padding: 1rem 6rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+#page-title {
+  color: var(--lightPrimaryColor);
+  margin: 2.5rem 0px;
+  font-size: 3rem;
+}

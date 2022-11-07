@@ -1,0 +1,21 @@
+.connectWalletBtn {
+  text-decoration: none;
+  /* border: 3px solid FEF8F8; */
+  color: #551a8a;
+  padding: 10px 60px;
+  font-size: 28px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+.connectWalletContainer {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  height: 30px;
+}

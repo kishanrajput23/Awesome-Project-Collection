@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Shadows+Into+Light&display=swap");
+
+:root {
+  --primaryColor: #42427d;
+  --lightPrimaryColor: #5840bb;
+  --secondaryColor:#7979B2;
+  --light-bg: #e5eff7;
+}
+
+
+html {
+  font-size: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif !important;
+}
+body {
+  background-image: url("../public/assets/images/light-theme.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.connectWalletContainer {
+  height: 300px;
+  width: 400px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  padding: 50px 35px;
+  font-size: large;
+  font-weight: 900;
+}
+.img {
+  height: 30px;
+}
+.connectWalletBtn {
+  text-decoration: none;
+  /* border: 3px solid FEF8F8; */
+  color: #551a8a;
+  padding: 10px 60px;
+  font-size: 28px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+  background: none;
+  border-radius: 20px;
+}
+
+
+.main-container{
+  width: 100%;
+  /* height: 97vh; */
+  padding: 2.5rem;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.primary-txt{
+  font-size: 2.5rem;
+  color: var(--lightPrimaryColor);
+}
+
+.secondary-txt{
+  font-size: 2rem;
+  color: var(--secondaryColor);
+}
+
+.nav-link-btn{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+
+.primary-btn{
+  min-width: 100px;
+  background-color: var(--lightPrimaryColor);
+  color: white;
+  padding: 1rem 2rem;
+  /* border-radius: 25px; */
+  border: none;
+  box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 15px 5px;
+  cursor: pointer;
+}
+
+.two-div-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+
+.wallet-addr-txt{
+  font-size: 1.5rem;
+  color: var(--lightPrimaryColor);
+
+}
