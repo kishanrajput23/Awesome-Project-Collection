@@ -1,0 +1,92 @@
+#header
+{
+    background-image: url("https://media.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif");
+}
+#header p{
+    font-size: 60pt;
+    color:white;
+    padding-top:8px;
+    margin:0;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    font-family: 'Bellota',cursive;
+    font-size: 26pt;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+} 
+h1 span{
+    border: 8px solid gray;
+    border-radius: 100px;
+    color:black;
+    padding: 15px;
+
+}
+h1{
+    font-size:15pt;
+    color:#ffffff;
+    text-align:center;
+    padding: 20px 0 20px 0;
+    margin: 0 0 10px 0;
+}
+.section {
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+  
+  #res {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  #res a {
+    margin: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: #efefef;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #3fb6b2;
+  }
+  
+  progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+  }
+  
+  #contacts {
+    text-align: center;
+  }
+  
+  #contacts img {
+    height: 150px;
+    width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  
+  #contacts a {
+    text-decoration: none;
+  }
