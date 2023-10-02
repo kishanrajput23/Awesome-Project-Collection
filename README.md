@@ -1,10 +1,5 @@
-# Please do not contribute in this repository as it has been excluded from Hacktoberfest 2022
-
-![image](https://user-images.githubusercontent.com/70385488/194719413-5c1f8c1a-7462-4411-9dc6-30ec72a473aa.png)
-
-
 #  Awesome-Project-Collection🔥
-![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
+<img width="1440" alt="image" src="https://github.com/kishanrajput23/Java-Projects-Collections/assets/70385488/d726ecd1-103b-473e-9b4c-a9c07045614e">
 
 <div align="center">
 
@@ -30,7 +25,7 @@ A month-long celebration from October 1st to October 31st presented by [Digital 
 [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
 ## Rules :fire:
-To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2022 (in any time zone). PRs can be made to any public repository on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 40,000__ participants who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
+To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2023 (in any time zone). PRs can be made to any public repository on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 40,000__ participants who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
 
 ## Steps to follow :scroll:
 
